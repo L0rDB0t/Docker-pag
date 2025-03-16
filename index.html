@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Prueba de contenedor de imagen</title>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Lora:wght@400;700&display=swap">
+    <style>
+        body {
+            font-family: 'Lora', serif;
+            text-align: center;
+            margin: 0;
+            background-color: #f4f4f4;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+        }
+        .container {
+            background: #ffffff;
+            padding: 50px;
+            border-radius: 15px;
+            box-shadow: 0 0 30px rgba(0, 0, 0, 0.1);
+            max-width: 700px;
+            width: 100%;
+        }
+        h1 {
+            color: #333333;
+            margin-bottom: 25px;
+            font-size: 2.5em;
+        }
+        p {
+            color: #555555;
+            line-height: 1.8;
+            font-size: 1.2em;
+        }
+        .footer {
+            margin-top: 30px;
+            font-size: 1em;
+            color: #777777;
+        }
+        .comment-section {
+            margin-top: 40px;
+            text-align: center;
+        }
+        .comment-section h2 {
+            font-size: 1.8em;
+            color: #333333;
+        }
+        .comment-section form {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+        .comment-section textarea {
+            resize: none;
+            padding: 10px;
+            font-size: 1em;
+            margin-bottom: 10px;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+            width: 100%;
+            max-width: 600px;
+        }
+        .comment-section button {
+            padding: 10px;
+            font-size: 1em;
+            color: #fff;
+            background-color: #333333;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+        .comment-section button:hover {
+            background-color: #555555;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Prueba de Contenedor para Imagen</h1>
+        <p>Esta página está corriendo dentro de un contenedor Docker como parte de una prueba. Docker nos permite empaquetar aplicaciones y sus dependencias en un contenedor, asegurando que se ejecuten de manera consistente en cualquier entorno.</p>
+        <div class="comment-section">
+            <h2>Deja tu comentario</h2>
+            <form>
+                <textarea rows="4" placeholder="Escribe tu comentario aquí..."></textarea>
+                <button type="submit">Enviar</button>
+            </form>
+        </div>
+        <div class="footer">
+            <p>© 2025 L0RDB0T. Todos los derechos reservados.</p>
+        </div>
+    </div>
+</body>
+</html>
